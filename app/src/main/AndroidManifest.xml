@@ -27,7 +27,7 @@
         <!-- Google Maps API Key -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyA4EW_vZEAux0ZF1JUebEcbbaIw_Q1JfV4"  />
+            android:value="MY_KEY"  />
         <!-- Geofence Broadcast Receiver -->
         <receiver
             android:name=".geofencing.GeofenceBroadcastReceiver"

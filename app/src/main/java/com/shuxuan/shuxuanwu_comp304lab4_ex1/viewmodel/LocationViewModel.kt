@@ -107,7 +107,7 @@ class LocationViewModel(application: Application) : AndroidViewModel(application
             geofenceAdded = true
         }
     }
-    private val apiKey = "AIzaSyA4EW_vZEAux0ZF1JUebEcbbaIw_Q1JfV4"
+    private val apiKey = "MY_KEY"
     // Route planning logic
     fun getRoute(origin: LatLng, destination: LatLng) {
         viewModelScope.launch {
